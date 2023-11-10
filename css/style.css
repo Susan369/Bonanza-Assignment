@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0fd11f;
+    color: white;
+    padding: 10px;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block; /* Make the links block-level to occupy the full width */
+}
+
+.soup-menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.soup-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.description {
+    display: none;
+}
+
+footer {
+    background-color: #32e40f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
